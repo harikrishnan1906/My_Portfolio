@@ -72,12 +72,12 @@ function Projects() {
 
                   <div className="project-buttons">
                     <div>
-                      <a href={project.gitHubLink}>
-                        <Button
-                          className="project-btn"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
+                      <a
+                        href={project.gitHubLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Button className="project-btn">
                           <FaGithub />
                           GitHub
                         </Button>
