@@ -72,7 +72,7 @@ function Projects() {
                       GitHub
                     </Button>
 
-                    <a href={websiteLink}>
+                    <a href={project.websiteLink}>
                       <Button variant="outline-light" className="project-btn">
                         <FaExternalLinkAlt />
                         Live Demo
