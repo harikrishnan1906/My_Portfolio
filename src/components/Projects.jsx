@@ -12,6 +12,9 @@ const projects = [
       "Full Stack fish e-commerce platform with customer feedback optimization system for multi-branch retail management.",
 
     technologies: ["React", "Node.js", "Express", "MongoDB", "Bootstrap"],
+
+    websiteLink:
+      "https://ocean-fresh-6k37-git-main-hari-krishnans-projects-56f0c02d.vercel.app/",
   },
 
   {
@@ -21,6 +24,8 @@ const projects = [
       "Web-based veterinary appointment booking platform with user and admin functionalities.",
 
     technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+
+    websiteLink: "sample",
   },
 
   {
@@ -30,6 +35,7 @@ const projects = [
       "Modern responsive educational website with hero slider, live classes section, and clean UI design.",
 
     technologies: ["React", "Bootstrap", "CSS", "JavaScript"],
+    websiteLink: "sample",
   },
 ];
 
@@ -66,10 +72,12 @@ function Projects() {
                       GitHub
                     </Button>
 
-                    <Button variant="outline-light" className="project-btn">
-                      <FaExternalLinkAlt />
-                      Live Demo
-                    </Button>
+                    <a href={websiteLink}>
+                      <Button variant="outline-light" className="project-btn">
+                        <FaExternalLinkAlt />
+                        Live Demo
+                      </Button>
+                    </a>
                   </div>
                 </Card.Body>
               </Card>
