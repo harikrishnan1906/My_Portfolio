@@ -13,6 +13,8 @@ const projects = [
 
     technologies: ["React", "Node.js", "Express", "MongoDB", "Bootstrap"],
 
+    gitHubLink: "https://github.com/harikrishnan1906/Ocean-Fresh",
+
     websiteLink:
       "https://ocean-fresh-6k37-git-main-hari-krishnans-projects-56f0c02d.vercel.app/",
   },
@@ -24,6 +26,7 @@ const projects = [
       "Web-based veterinary appointment booking platform with user and admin functionalities.",
 
     technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+    gitHubLink: "sample",
 
     websiteLink: "sample",
   },
@@ -35,6 +38,7 @@ const projects = [
       "Modern responsive educational website with hero slider, live classes section, and clean UI design.",
 
     technologies: ["React", "Bootstrap", "CSS", "JavaScript"],
+    gitHubLink: "sample",
     websiteLink: "sample",
   },
 ];
@@ -67,17 +71,31 @@ function Projects() {
                   </div>
 
                   <div className="project-buttons">
-                    <Button className="project-btn">
-                      <FaGithub />
-                      GitHub
-                    </Button>
+                    <div>
+                      <a href={project.gitHubLink}>
+                        <Button
+                          className="project-btn"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <FaGithub />
+                          GitHub
+                        </Button>
+                      </a>
+                    </div>
 
-                    <a href={project.websiteLink}>
-                      <Button variant="outline-light" className="project-btn">
-                        <FaExternalLinkAlt />
-                        Live Demo
-                      </Button>
-                    </a>
+                    <div>
+                      <a
+                        href={project.websiteLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Button variant="outline-light" className="project-btn">
+                          <FaExternalLinkAlt />
+                          Live Demo
+                        </Button>
+                      </a>
+                    </div>
                   </div>
                 </Card.Body>
               </Card>
