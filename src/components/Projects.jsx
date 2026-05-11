@@ -4,11 +4,17 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 import "../styles/project.css";
 
+import homeSchoolingImg from "../assets/images/homeSchooling.png";
+
+import smartBookAdministrationImg from "../assets/images/smartBookAdministration.png";
+
+import oceanFreshImg from "../assets/images/oceanFresh.png";
+
 const projects = [
   {
     title: "HomeSchooling",
 
-    image: "frontend/src/assets/images/oceanFresh.png",
+    image: homeSchoolingImg,
 
     description:
       "Modern responsive educational website with hero slider, live classes section, and clean UI design.",
@@ -23,7 +29,7 @@ const projects = [
   {
     title: "Smart Book Administration",
 
-    image: "frontend/src/assets/images/smartBookAdministration.png",
+    image: smartBookAdministrationImg,
 
     description:
       "Full‑stack web‑based library management system with automated book issue/return and fine‑calculation module for multi‑user academic environments.",
@@ -38,7 +44,7 @@ const projects = [
   {
     title: "OceanFresh",
 
-    image: "frontend/src/assets/images/oceanFresh.png",
+    image: oceanFreshImg,
 
     description:
       "Full Stack fish e-commerce platform with customer feedback optimization system for multi-branch retail management.",
