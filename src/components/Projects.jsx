@@ -6,7 +6,39 @@ import "../styles/project.css";
 
 const projects = [
   {
+    title: "HomeSchooling",
+
+    image: "frontend/src/assets/images/oceanFresh.png",
+
+    description:
+      "Modern responsive educational website with hero slider, live classes section, and clean UI design.",
+
+    technologies: ["HTML", "CSS", "JavaScript"],
+
+    gitHubLink: "https://github.com/harikrishnan1906/home-Schooling",
+
+    websiteLink: "https://home-schooling-neon.vercel.app/",
+  },
+
+  {
+    title: "Smart Book Administration",
+
+    image: "frontend/src/assets/images/smartBookAdministration.png",
+
+    description:
+      "Full‑stack web‑based library management system with automated book issue/return and fine‑calculation module for multi‑user academic environments.",
+
+    technologies: ["React", "Node.js", "Express", "MongoDB", "Bootstrap"],
+
+    gitHubLink: "https://github.com/harikrishnan1906/Smart-Book-Administration",
+
+    websiteLink: "https://smart-book-administration.vercel.app/",
+  },
+
+  {
     title: "OceanFresh",
+
+    image: "frontend/src/assets/images/oceanFresh.png",
 
     description:
       "Full Stack fish e-commerce platform with customer feedback optimization system for multi-branch retail management.",
@@ -15,31 +47,7 @@ const projects = [
 
     gitHubLink: "https://github.com/harikrishnan1906/Ocean-Fresh",
 
-    websiteLink:
-      "https://ocean-fresh-6k37-git-main-hari-krishnans-projects-56f0c02d.vercel.app/",
-  },
-
-  {
-    title: "Veterinary Appointment System",
-
-    description:
-      "Web-based veterinary appointment booking platform with user and admin functionalities.",
-
-    technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-    gitHubLink: "sample",
-
-    websiteLink: "sample",
-  },
-
-  {
-    title: "HomeSchooling Website",
-
-    description:
-      "Modern responsive educational website with hero slider, live classes section, and clean UI design.",
-
-    technologies: ["React", "Bootstrap", "CSS", "JavaScript"],
-    gitHubLink: "sample",
-    websiteLink: "sample",
+    websiteLink: "https://ocean-fresh-6k37-two.vercel.app/",
   },
 ];
 
