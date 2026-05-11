@@ -68,7 +68,9 @@ function Projects() {
             <Col lg={4} md={6} key={index} className="mb-4">
               <Card className="project-card" data-aos="fade-up">
                 <div className="project-image">
-                  <div className="image-placeholder">Project Image</div>
+                  <div className="image-placeholder">
+                    <img src={project.image} alt="Project Image" className="project-img"  />
+                  </div>
                 </div>
 
                 <Card.Body>
