@@ -47,15 +47,23 @@ function Footer() {
               </ul>
 
               <div className="footer-socials">
-                <a href="https://github.com/harikrishnan1906">
+                <a
+                  href="https://github.com/harikrishnan1906"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaGithub />
                 </a>
 
-                <a href="https://www.linkedin.com/in/hari-krishnan-kamaraj-b17628313/">
+                <a
+                  href="https://www.linkedin.com/in/hari-krishnan-kamaraj-b17628313/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaLinkedin />
                 </a>
 
-                <a href="mailto:harikrishnan.k1906@email.com">
+                <a href="#contact">
                   <FaEnvelope />
                 </a>
               </div>

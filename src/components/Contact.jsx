@@ -160,7 +160,7 @@ function Contact() {
                     />
                   </Form.Group>
 
-                  <Button type="submit" className="custom-btn">
+                  <Button type="submit" className="custom-btn w-100">
                     Send Message
                   </Button>
                 </Form>

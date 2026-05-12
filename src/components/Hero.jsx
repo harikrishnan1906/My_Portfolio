@@ -34,15 +34,24 @@ function Hero() {
               </div>
 
               <div className="social-icons">
-                <a href="#">
+                <a
+                  href="https://github.com/harikrishnan1906"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaGithub />
                 </a>
 
-                <a href="#">
+                <a
+                  href="https://www.linkedin.com/in/hari-krishnan-kamaraj-b17628313/"
+                  target="_blank"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaLinkedin />
                 </a>
 
-                <a href="#">
+                <a href="#contact">
                   <FaEnvelope />
                 </a>
               </div>
