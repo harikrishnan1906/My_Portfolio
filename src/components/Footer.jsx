@@ -12,7 +12,7 @@ function Footer() {
           <Col lg={6} className="mb-4 mb-lg-0">
             <div className="footer-content">
               <h3>
-                Hari{" "}<span>Krishnan</span>
+                Hari <span>Krishnan</span>
               </h3>
 
               <p>
@@ -51,7 +51,7 @@ function Footer() {
                   <FaGithub />
                 </a>
 
-                <a href="www.linkedin.com/in/hari-krishnan-kamaraj-b17628313">
+                <a href="https://www.linkedin.com/in/hari-krishnan-kamaraj-b17628313/">
                   <FaLinkedin />
                 </a>
 
