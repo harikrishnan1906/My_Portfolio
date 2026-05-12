@@ -82,7 +82,11 @@ function Contact() {
                   </div>
 
                   <div>
-                    <a href="https://github.com/harikrishnan1906">
+                    <a
+                      href="https://github.com/harikrishnan1906"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <h5>GitHub</h5>
 
                       <span>github.com/harikrishnan1906</span>
@@ -98,7 +102,11 @@ function Contact() {
                   </div>
 
                   <div>
-                    <a href="www.linkedin.com/in/hari-krishnan-kamaraj-b17628313">
+                    <a
+                      href="https://www.linkedin.com/in/hari-krishnan-kamaraj-b17628313/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <h5>LinkedIn</h5>
 
                       <span>
@@ -114,7 +122,7 @@ function Contact() {
           <Col lg={7}>
             <Card className="contact-form-card" data-aos="fade-left">
               <Card.Body>
-                <Form onSubmit={sendEmail} ref={form} >
+                <Form onSubmit={sendEmail} ref={form}>
                   <Form.Group className="mb-4">
                     <Form.Control
                       type="text"
@@ -152,7 +160,9 @@ function Contact() {
                     />
                   </Form.Group>
 
-                  <Button type="submit" className="custom-btn">Send Message</Button>
+                  <Button type="submit" className="custom-btn">
+                    Send Message
+                  </Button>
                 </Form>
               </Card.Body>
             </Card>
