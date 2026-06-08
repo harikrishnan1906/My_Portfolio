@@ -2,7 +2,7 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import "../styles/hero.css";
 import profileImage from "../assets/images/portfolio-profile.png";
-import resumeFile from '../assets/resume/Hari_Krishnan_resume.pdf';
+import resumeFile from "../assets/resume/Hari_Krishnan_resume.pdf";
 
 function Hero() {
   return (

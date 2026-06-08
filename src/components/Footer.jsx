@@ -72,7 +72,7 @@ function Footer() {
         </Row>
 
         <div className="footer-bottom">
-          <p>© 2026 Hari Krishnan. All Rights Reserved.</p>
+          <p>© 2026 Hari Krishnan</p>
         </div>
       </Container>
     </footer>

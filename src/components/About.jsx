@@ -13,8 +13,7 @@ function About() {
               <h3>Full Stack Developer & IT Postgraduate</h3>
 
               <p>
-                I am Hari Krishnan, a passionate MERN Stack Developer currently
-                pursuing M.Sc Information Technology. I enjoy building modern,
+                I am Hari Krishnan, a passionate MERN Stack Developer. I am recently completed M.Sc., Information Technology. I enjoy building modern,
                 responsive, and user-friendly web applications.
               </p>
 
@@ -53,7 +52,7 @@ function About() {
 
                     <p>MERN Stack Development</p>
 
-                    <span>Internship & Projects</span>
+                    <span>Training & Projects</span>
                   </Card.Body>
                 </Card>
               </Col>

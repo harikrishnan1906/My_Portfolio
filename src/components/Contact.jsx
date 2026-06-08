@@ -56,7 +56,7 @@ function Contact() {
                   <div>
                     <h5>Email</h5>
 
-                    <span>harikrishnan.k1906@email.com</span>
+                    <span>harikrishnan.k1906@gmail.com</span>
                   </div>
                 </Card.Body>
               </Card>
@@ -109,9 +109,7 @@ function Contact() {
                     >
                       <h5>LinkedIn</h5>
 
-                      <span>
-                        linkedin.com/in/hari-krishnan-kamaraj-b17628313
-                      </span>
+                      <span>linkedin.com/in/hari-krishnan-kamaraj-dev</span>
                     </a>
                   </div>
                 </Card.Body>
